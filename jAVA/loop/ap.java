@@ -1,3 +1,5 @@
+package loop;
+
 import java.util.Scanner;
 public class ap {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package jAVA.basic;
+package basic;
 
 class print {
     public static void main(String[] args){

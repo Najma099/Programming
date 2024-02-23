@@ -1,4 +1,4 @@
-package jAVA.basic;
+package basic;
 
 public class percent{
     public static void main(String[] args){

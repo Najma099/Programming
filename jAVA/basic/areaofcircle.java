@@ -1,4 +1,5 @@
-package jAVA.basic;
+package basic;
+
 
 public class areaofcircle {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package jAVA.basic;
+package basic;
 
 public class interest {
     public static void main(String[] arg){

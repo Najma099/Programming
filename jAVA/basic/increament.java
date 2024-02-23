@@ -1,4 +1,4 @@
-package jAVA.basic;
+package basic;
 
 public class increament {
     public static void main(String[] args){
