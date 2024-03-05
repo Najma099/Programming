@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int arr[2][2]={2,3,44,54};
+    int brr[2][2]={3,44,56,78};
+    // int crr[2][2];
+    // for(int i=0;i<2;i++)
+    // {
+    //     for(int j=0;j<2;j++)
+    //     {
+    //         crr[i][j]=arr[i][j]+brr[i][j];
+    //     }
+    // }
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<2;j++)
+        {
+            printf("%d ",arr[i][j]+brr[i][j]);
+        }
+    }
+    printf("\n");
+}
