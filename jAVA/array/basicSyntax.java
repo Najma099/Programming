@@ -1,3 +1,5 @@
+package array;
+
 
 public class basicSyntax {
     public static void main(String[] args) {

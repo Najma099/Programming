@@ -1,3 +1,5 @@
+package array;
+
 
 public class Secondmax {
     public static void main(String[] args) {
