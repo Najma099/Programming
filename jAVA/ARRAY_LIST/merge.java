@@ -7,21 +7,31 @@ public class merge {
         int ar[]={1,3,4,7};
         int br[]={2,5,6,9};
         int crr[]=new int[8];
-        for(int i=0;i<8;i++)
-        {
-            if(ar[a]<br[b])
-            {
+        int i=0;
+        while(a < ar.length && b < br.length) {
+            if(ar[a]<br[b]) {
                 crr[i]=ar[a];
                 a++;
             }
-            if(ar[a]>br[b])
-            {
+            else {
                 crr[i]=br[b];
                 b++;
             }
+            i++;
         }
-        for(int ele:crr)
-        {
+        // Copy remaining elements of ar
+        while(a < ar.length) {
+            crr[i]=ar[a];
+            a++;
+            i++;
+        }
+        // Copy remaining elements of br
+        while(b < br.length) {
+            crr[i]=br[b];
+            b++;
+            i++;
+        }
+        for(int ele:crr) {
             System.out.print(ele+" ");
         }
     }
