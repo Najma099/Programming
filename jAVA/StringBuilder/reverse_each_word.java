@@ -8,9 +8,12 @@ public class reverse_each_word {
         int i = 0;
         int j = 0;
         while (j < n) {
-            if (S.charAt(j) != ' ') {
+            if (S.charAt(j) != ' ') 
+            {
                 j++;
-            } else {
+            } 
+            else
+            {
                 reverse(S, i, j - 1);
                 i = j + 1;
                 j = i;
