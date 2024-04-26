@@ -1,4 +1,4 @@
-package twoD_array;
+
 
 public class spiral {
     public static void main(String[] args) {
