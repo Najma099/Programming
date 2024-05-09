@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//to convert binary to decimal
 public class binaraytodecimal {
 
 

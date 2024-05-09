@@ -1,4 +1,4 @@
-
+//convert a number from decimal to binary
 import java.util.Scanner;
 public class dectoBin {
     public static void main(String[] args) {

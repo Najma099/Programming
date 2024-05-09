@@ -1,3 +1,4 @@
+//to check number of operartion is required to change a number from one to another
 public class convert_num {
     public static void main(String[] args) {
         int a=10;

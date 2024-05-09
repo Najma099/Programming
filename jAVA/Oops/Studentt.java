@@ -1,6 +1,6 @@
-package Oops;
+
 public class Studentt {
-    String name;
+    public String name;
     int rollno;
     float percentage;
 }
