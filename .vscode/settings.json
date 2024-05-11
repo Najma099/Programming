@@ -1,4 +1,19 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "jAVA",
+        "jAVA\\Algorithm",
+        "jAVA\\array",
+        "jAVA\\ARRAY_LIST",
+        "jAVA\\BITS",
+        "jAVA\\CP",
+        "jAVA\\if_else",
+        "jAVA\\linklist",
+        "jAVA\\loop",
+        "jAVA\\Oops",
+        "java_Prac\\loop",
+        "java_Prac\\oops"
+    ],
+    "java.project.referencedLibraries": []
 }

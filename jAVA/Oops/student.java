@@ -1,7 +1,8 @@
+//even if any attributes of class is private we can only access in same class
 public class student {
     public static class Student{
         String name;
-        int rno;
+        private int rno;
         double percent;
     }
    public static void main(String[] args) {
@@ -16,5 +17,6 @@ public class student {
         y.rno=34;
         y.percent=95.4;
         System.out.println(y.name);
+        System.out.println(y.rno);
    } 
 }
