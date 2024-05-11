@@ -3,18 +3,22 @@ public class bank {
     String name;
     private long acno;
     int balance;
-
-    public bank(String naam,long ano,int bal)
+    //default constructure
+    public bank()
     {
-        name=naam;
-        balance=bal;
+
+    }
+    public bank(String name,long acno,int balance)
+    {
+        this.name=name;
+        this.balance=balance;
     }
     public long getacno()
     {
         return acno;
     }
-    public void setacno(long ano)
+    public void setacno(long acno)
     {
-        acno=ano;
+        this.acno=acno;
     }
 }
