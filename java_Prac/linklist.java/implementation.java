@@ -1,3 +1,4 @@
+//Singly linked 
 public class implementation {
     public static class Node
     {
@@ -15,11 +16,18 @@ public class implementation {
         void insert(int index,int val)
         {
             Node newNode = new Node(val);
+            if(index==0)
+            insertAtBegin(val);
+            else if(index==length()-1)
+            insertAtEnd(val);
+            else
+            {
             Node temp=head;
             for(int i=1;i<=index-1;i++)
             temp=temp.next;
             newNode.next=temp.next;
             temp.next=newNode;
+            }
             
         }
         void insertAtBegin(int val)
@@ -48,6 +56,39 @@ public class implementation {
             tail.next=newNode;
             tail=newNode;
             }
+        }
+        void deleteAt(int index)
+        {
+            Node trav = head;
+            if(index==0)
+            {
+                head=head.next;
+                return;
+            }
+            for (int i = 0; i < index - 1; i++) 
+            {
+                trav = trav.next;
+            }
+        
+            if (index == length() - 1) 
+            {
+                
+                tail = trav;
+                tail.next = null;
+            } 
+            else 
+            {
+                trav.next = trav.next.next;
+            }
+        }
+        int getAt(int index)
+        {
+            Node trav =head;
+            for(int i=1;i<=index;i++)
+            {
+                trav=trav.next;
+            }
+            return trav.data;
         }
         void display()
         {
@@ -82,5 +123,6 @@ public class implementation {
         System.out.println();
         ll.insert(1,77);
         ll.display();
+        System.out.println(ll.getAt(3));
     }
 }
