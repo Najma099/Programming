@@ -13,7 +13,8 @@
         "jAVA\\loop",
         "jAVA\\Oops",
         "java_Prac\\loop",
-        "java_Prac\\oops"
+        "java_Prac\\oops",
+        "java_Prac\\linklist.java"
     ],
     "java.project.referencedLibraries": []
 }

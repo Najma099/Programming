@@ -3,7 +3,8 @@ public class arraylist {
         static int[] arr = new int[6]; 
         static int size = 0; 
 
-        public void add(int ele) { 
+        public void add(int ele) 
+        { 
             arr[size] = ele;
             size++;
         }
