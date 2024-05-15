@@ -115,7 +115,6 @@ public class implementation {
                 System.out.print(temp.data + " " );
                 temp=temp.next;
             }
-            System.out.println();
         }
         
            
@@ -126,13 +125,13 @@ public class implementation {
         ll.insertAtEnd(5);
         ll.insertAtEnd(4);
         ll.display();
-        
+        System.out.println();
+        //System.out.println(ll.length());
         ll.insertAtBegin(6);
         ll.display();
-        
+        System.out.println();
         ll.insert(1,77);
         ll.display();
-        
         System.out.println(ll.getAt(3));
         System.out.println(ll.size);
     }
