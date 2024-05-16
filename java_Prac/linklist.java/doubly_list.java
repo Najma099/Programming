@@ -47,7 +47,7 @@ public class doubly_list {
         }
         void add(int index, int val)
         {
-            //Node trav=head;
+            Node trav=head;
             Node newNode= new Node(val);
             if(index<0 || index>size)
                 throw new IndexOutOfBoundsException("Index out of bound");
@@ -71,7 +71,7 @@ public class doubly_list {
         void delete(int index)
         {
             
-            if(index <0 || index >=size )
+            if(index <0 || index >size )
             throw new IndexOutOfBoundsException("Index out of bound");
             if(index==0)
             {
@@ -92,7 +92,7 @@ public class doubly_list {
                     trav=trav.next;
                 }
                 trav.next=trav.next.next;
-                trav.next.prev=trav;
+                //trav.next.prev=trav;
             }
             size--;
         }
@@ -116,7 +116,9 @@ public class doubly_list {
         dl.add(1,9);
         dl.add(2,19);
         dl.display();
-        dl.delete(5);
+        dl.delete(4);
+        dl.delete(4);
         dl.display();
+        System.out.println(dl.size);
     }
 }
