@@ -42,8 +42,9 @@ public class doubly_list {
             tail.next=newNode;
             newNode.prev=tail;
             tail=newNode;
-            }
             size++;
+            }
+           
         }
         void add(int index, int val)
         {
@@ -70,31 +71,51 @@ public class doubly_list {
         }
         void delete(int index)
         {
-            
-            if(index <0 || index >size )
-            throw new IndexOutOfBoundsException("Index out of bound");
-            if(index==0)
+            if (index < 0 || index >= size) 
             {
-                head=head.next;
-                head.prev=null;
+                throw new IndexOutOfBoundsException("Index out of bound");
             }
-            else if(index==size-1)
+            else if (index == 0) 
             {
-                Node trav=tail.prev;
-                tail=trav;
-                trav.next=null;
-            }
+                if (head.next != null) 
+                {
+                    head = head.next;
+                    head.prev = null;
+                } 
+                else 
+                {
+                    head = null;
+                    tail = null;
+                }
+            } 
+            else if (index == size - 1) 
+            {
+                if (tail.prev != null) 
+                {
+                    tail = tail.prev;
+                    tail.next = null;
+                } 
+                else 
+                {
+                    head = null;
+                    tail = null;
+                }
+            } 
             else 
             {
-                Node trav =head;
-                for(int i=1;i<index;i++)
+                Node trav = head;
+                for (int i = 0; i < index - 1; i++) 
                 {
-                    trav=trav.next;
+                    trav = trav.next;
                 }
-                trav.next=trav.next.next;
-                //trav.next.prev=trav;
+                trav.next = trav.next.next;
+                if (trav.next != null) 
+                {
+                    trav.next.prev = trav;
+                }
             }
-            size--;
+            size--;  
+           
         }
         void display()
         {
@@ -117,7 +138,7 @@ public class doubly_list {
         dl.add(2,19);
         dl.display();
         dl.delete(4);
-        dl.delete(4);
+        dl.delete(3);
         dl.display();
         System.out.println(dl.size);
     }
