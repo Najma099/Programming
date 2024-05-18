@@ -41,13 +41,15 @@ public class implementation {
             if(head==null)
             {
                 insertAtEnd(val);
+                size++;
             }
             else
             {
                 newNode.next=head;
                 head=newNode;
+                size++;
             }
-            size++;
+            
         }
         void insertAtEnd(int val)
         {
@@ -87,12 +89,14 @@ public class implementation {
                 
                 tail = trav;
                 tail.next = null;
+                size--;
+                
             } 
             else 
             {
                 trav.next = trav.next.next;
+                size--;
             }
-            size--;
         }
         int getAt(int index)
         {
@@ -115,6 +119,7 @@ public class implementation {
                 System.out.print(temp.data + " " );
                 temp=temp.next;
             }
+            System.out.println();
         }
         
            
@@ -125,11 +130,8 @@ public class implementation {
         ll.insertAtEnd(5);
         ll.insertAtEnd(4);
         ll.display();
-        System.out.println();
-        //System.out.println(ll.length());
         ll.insertAtBegin(6);
         ll.display();
-        System.out.println();
         ll.insert(1,77);
         ll.display();
         System.out.println(ll.getAt(3));
