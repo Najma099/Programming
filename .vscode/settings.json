@@ -14,7 +14,9 @@
         "jAVA\\Oops",
         "java_Prac\\loop",
         "java_Prac\\oops",
-        "java_Prac\\linklist.java"
+        "java_Prac\\linklist.java",
+        "sem-ii",
+        "java_Prac\\Stack"
     ],
     "java.project.referencedLibraries": []
 }

@@ -1,0 +1,11 @@
+singly_list s2= new singly_list();
+        // s2.append(1, 0);
+        // s2.append(10, 0);
+        // s2.appendAtFirst(20);
+        // s2.appendAtLast(77);
+        // s2.append(6, 2);
+        // s2.display();
+        // s2.delete(5);
+        // s2.delete(4);
+        // s2.display();
+        // System.out.println(s2.size);
