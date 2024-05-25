@@ -1,7 +1,9 @@
-public class DynamicArray {
-    import java.util.Arrays;
+import java.util.Arrays;
 
 public class DynamicArray {
+    
+
+  public class DynamicArray {
     private int[] arr;
     private int size;
     private int capacity;
