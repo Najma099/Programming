@@ -16,7 +16,8 @@
         "java_Prac\\oops",
         "java_Prac\\linklist.java",
         "sem-ii",
-        "java_Prac\\Stack"
+        "java_Prac\\Stack",
+        "java_Prac\\Queue"
     ],
     "java.project.referencedLibraries": []
 }
