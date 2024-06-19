@@ -4,25 +4,31 @@ public class consecutive {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         int[] arr = {1,2,2,3,10,10,10,7,8,9};
-        int[] res = remove(arr);
-        stack <Integer> st = new Stack <>();
-        boolean flag=true;
+        int[] res = new int[arr.length];
+        int n = arr.length;
 
-        for(int i = 0; i < arr.length; i++){
-            if(st.isEmpty())
-                st.push(arr[i]);
-            else if(st.peek()==S.arr[i]){
-                flag=false;
-                continue;
-            }
-            else if(flag==false)
-            {
+        res[n-1] = -1;
+        Stack <Integer> st = new Stack <>();
+        st.push(arr[n-1]);
+         
+        for(int i = n-2 ; i >= 0; i--){
+            while(!st.isEmpty() && st.peek() <= arr[i])
                 st.pop();
-                flag=true;
-                st.push(S.charAt(i));
-            }
 
+            if(st.isEmpty())
+                res[i] = -1;
+
+            else 
+                res[i] = st.peek();
+
+            st.push(arr[i]);
         }
+
+       for(int ele: res)
+       {
+            System.out.print(ele + " ");
+       } 
+        
     
     }
 }
