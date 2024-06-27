@@ -17,7 +17,9 @@
         "java_Prac\\linklist.java",
         "sem-ii",
         "java_Prac\\Stack",
-        "java_Prac\\Queue"
+        "java_Prac\\Queue",
+        "GuesserGameApp.java",
+        "c++"
     ],
     "java.project.referencedLibraries": []
 }
