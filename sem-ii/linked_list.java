@@ -137,7 +137,7 @@ public class linked_list {
         boolean isEmpty()
         {
             Node trav=head;
-            if(head == null)
+            if(trav == null)
                 return true;
             else
                 return false;

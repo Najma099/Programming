@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class InfixToPrefix {
+public class infixToPrefix {
 
     public static void main(String[] args) {
         String S = "9-(5+3)*4/6";                     

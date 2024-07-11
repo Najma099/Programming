@@ -1,4 +1,3 @@
-package ARRAY_LIST;
 
 public class merge {
     public static void main(String[] args) {

@@ -1,6 +1,3 @@
-package ARRAY_LIST;
-
-
 import java.util.Scanner;
 public class nextgreat {
     public static void main(String[] args) {

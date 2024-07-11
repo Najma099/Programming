@@ -1,4 +1,4 @@
-singly_list s2= new singly_list();
+//singly_list s2= new singly_list();
         // s2.append(1, 0);
         // s2.append(10, 0);
         // s2.appendAtFirst(20);

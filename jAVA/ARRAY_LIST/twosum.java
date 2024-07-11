@@ -1,5 +1,4 @@
 //to find sum of a target element from a array
-package ARRAY_LIST;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class twosum{

@@ -29,6 +29,6 @@ public class consecutive {
             System.out.print(ele + " ");
        } 
         
-    
+    sc.close();
     }
 }

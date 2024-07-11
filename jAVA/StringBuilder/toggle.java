@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 import java.util.Scanner;
 
 public class toggle {
@@ -12,5 +15,6 @@ public class toggle {
             s.setCharAt(i,(char)(s.charAt(i)-32));
         }
         System.out.println(s);
+        sc.close();
     }
 }

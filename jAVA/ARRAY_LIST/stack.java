@@ -1,5 +1,3 @@
-package ARRAY_LIST;
-
 public class stack {
     public static void main(String[] args) {
         int arr[]={12,8,41,37,2,49,19,28,21};

@@ -24,5 +24,6 @@ public class postfixCal {
             }
         }
         System.out.print(st.peek());
+        sc.close();
     }
 }

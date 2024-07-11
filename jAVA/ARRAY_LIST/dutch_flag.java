@@ -1,4 +1,3 @@
-package ARRAY_LIST;
 
 public class dutch_flag {
     public static void main(String[] args) {

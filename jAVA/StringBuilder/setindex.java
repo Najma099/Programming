@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 import java.util.Scanner;
 
 public class setindex {
@@ -7,5 +10,6 @@ public class setindex {
         System.out.println(s);
         s.setCharAt(1,'a');
         System.out.println(s);
+        sc.close();
     }
 }

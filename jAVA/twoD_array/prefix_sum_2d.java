@@ -1,3 +1,6 @@
+package twoD_array;
+
+
 //import java.util.Scanner;
 public class prefix_sum_2d {
     //Scanner sc= new Scanner(System.in);

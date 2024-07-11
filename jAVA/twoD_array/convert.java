@@ -1,3 +1,5 @@
+package twoD_array;
+
 
 import java.util.Scanner;
 public class convert {
@@ -15,5 +17,6 @@ public class convert {
         for (String value : T) {
             System.out.print(value + " ");
         }
+        sc.close();
     }
 }
