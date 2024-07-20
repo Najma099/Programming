@@ -1,3 +1,5 @@
+package basic;
+
 
 public class HCF {
     public static int findHCF(int numbers[]){
@@ -9,7 +11,7 @@ public class HCF {
     }
 
     public static int findHC(int a, int b) {
-        int temp;
+        int temp = 0;
         while ( b != 0){
             temp = b;
             b = a % b;

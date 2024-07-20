@@ -1,3 +1,6 @@
+package BITS;
+
+
 import java.util.Scanner;
 //to convert binary to decimal
 public class binaraytodecimal {
@@ -16,5 +19,6 @@ public class binaraytodecimal {
             p2=p2*2;
         }
         System.out.println("Decimal equivalent: " + sum);
+        sc.close();
     }
 }

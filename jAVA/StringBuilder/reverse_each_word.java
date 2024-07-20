@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 import java.util.Scanner;
 
 public class reverse_each_word {
@@ -21,6 +24,7 @@ public class reverse_each_word {
         }
         reverse(S, i, j - 1);
         System.out.println(S);
+        sc.close();
     }
 
     public static void reverse(StringBuilder S, int i, int j) {

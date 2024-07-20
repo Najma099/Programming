@@ -1,3 +1,6 @@
+package BITS;
+
+
 //set the ith bit
 public class ith_bit_set {
     public static void main(String[] args) {

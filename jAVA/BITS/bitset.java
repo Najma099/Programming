@@ -1,3 +1,6 @@
+package BITS;
+
+
 //to check if the kth bit is set or not
 public class bitset {
     public static void main(String[] args) {

@@ -1,3 +1,6 @@
+package BITS;
+
+
 public class rightset {
     //if bit is set or not using right shift
     public static void main(String[] args) {

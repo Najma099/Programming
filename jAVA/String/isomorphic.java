@@ -1,3 +1,6 @@
+package String;
+
+
 import java.util.Scanner;
 public class isomorphic {
     public static void main(String[] args) {
@@ -27,5 +30,6 @@ public class isomorphic {
         System.out.println("False");
         else
         System.out.println("True");
+        sc.close();
     }
 }

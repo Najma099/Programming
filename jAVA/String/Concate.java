@@ -1,3 +1,6 @@
+package String;
+
+
 import java.util.Scanner;
 public class Concate {
     public static void main(String[] args) {
@@ -7,5 +10,6 @@ public class Concate {
         s+=t;
         System.out.println(s);
         System.out.println("I m "+10);
+        sc.close();
     }
 }

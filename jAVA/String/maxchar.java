@@ -1,4 +1,7 @@
-import java.util.Arrays;
+package String;
+
+
+
 import java.util.Scanner;
 public class maxchar{
     public static void main(String[] args)
@@ -22,5 +25,6 @@ public class maxchar{
             if(freq[j]==max)
             System.out.println((char)(j+97));
         }
+        sc.close();
     }
 }

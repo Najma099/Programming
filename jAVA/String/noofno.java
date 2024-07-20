@@ -1,3 +1,6 @@
+package String;
+
+
 import java.util.Scanner;
 public class noofno {
     public static void main(String[] args) {
@@ -6,5 +9,6 @@ public class noofno {
         String S=T+"";
         
         System.out.println(S.length());
+        sc.close();
     }
 }

@@ -1,3 +1,6 @@
+package BITS;
+
+
 //number of set bit
 public class number_of_set_bit {
     public static void main(String[] args) {

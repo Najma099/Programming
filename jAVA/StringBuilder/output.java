@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 public class output {
     public static void main(String[] args) {
         StringBuilder s= new StringBuilder("ghaahjhdfyrfyjhfaa");
@@ -8,5 +11,6 @@ public class output {
         System.out.println(s.indexOf("a"));
         System.out.println(s.lastIndexOf("a"));
         System.out.println(s.reverse());
+        
     }
 }

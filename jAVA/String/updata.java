@@ -1,3 +1,6 @@
+package String;
+
+
 import java.util.Scanner;
 public class updata {
     public static void main(String[] args) {
@@ -14,5 +17,6 @@ public class updata {
             T += S.charAt(i);
         }
         System.out.print(T);
+        sc.close();
     }
 }

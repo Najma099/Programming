@@ -1,3 +1,6 @@
+package BITS;
+
+
 //count the number of set bit
 public class set_bit_count {
     public static void main(String[] args) {

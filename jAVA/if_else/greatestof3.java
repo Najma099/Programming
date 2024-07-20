@@ -1,3 +1,6 @@
+package if_else;
+
+
 import java.util.Scanner;
 public class greatestof3 {
     public static void main(String[] args) {

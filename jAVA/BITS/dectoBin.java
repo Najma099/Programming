@@ -1,3 +1,6 @@
+package BITS;
+
+
 //convert a number from decimal to binary
 import java.util.Scanner;
 public class dectoBin {
@@ -15,5 +18,6 @@ public class dectoBin {
         }
         s.reverse();
         System.out.println(s);
+        sc.close();
     }
 }

@@ -1,3 +1,6 @@
+package HashMap;
+
+
 import java.util.LinkedList;
 
 /**

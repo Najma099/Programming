@@ -1,3 +1,6 @@
+package BITS;
+
+
 public class ith_bit_clear {
     public static void main(String[] args) {
         int n=9;

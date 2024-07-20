@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 public class insert {
     public static void main(String[] args) {
         StringBuilder S= new StringBuilder("ghhueghjgduytdhgdyuuy");

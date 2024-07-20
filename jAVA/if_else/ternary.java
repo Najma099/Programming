@@ -1,3 +1,6 @@
+package if_else;
+
+
 import java.util.Scanner;
 public class ternary {
     public static void main(String[] args) {

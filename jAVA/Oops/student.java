@@ -1,4 +1,8 @@
+package Oops;
+
+
 //even if any attributes of class is private we can only access in same class
+
 public class student {
     public static class Student{
         String name;

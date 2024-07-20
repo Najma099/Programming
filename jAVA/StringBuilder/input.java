@@ -1,3 +1,5 @@
+package StringBuilder;
+
 
 import java.util.Scanner;
 public class input {
@@ -6,5 +8,6 @@ public class input {
         String s=sc.next();
         StringBuilder sb= new StringBuilder(s);
         System.out.println(sb);
+        sc.close();
     }
 }

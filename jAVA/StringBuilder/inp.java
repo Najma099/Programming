@@ -1,3 +1,5 @@
+package StringBuilder;
+
 
 import java.util.Scanner;
 public class inp {
@@ -8,5 +10,6 @@ public class inp {
         StringBuilder st=new StringBuilder(sc.next());
         System.out.println(st);
         System.out.println(sb.compareTo(st));
+        sc.close();
     }
 }

@@ -1,3 +1,6 @@
+package if_else;
+
+
 import java.util.Scanner;
 public class absolute {
     public static void main(String[] args) {

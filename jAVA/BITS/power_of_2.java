@@ -1,3 +1,6 @@
+package BITS;
+
+
 //to check if any nuber is power of two
 public class power_of_2 {
     public static void main(String[] args) {

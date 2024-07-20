@@ -1,3 +1,6 @@
+package StringBuilder;
+
+
 import java.util.Scanner;
 
 public class reverse {
@@ -7,5 +10,6 @@ public class reverse {
         StringBuilder a=new StringBuilder(sc.next());
         StringBuilder t= new StringBuilder(s).reverse();
         System.out.println(a.compareTo(t));
+        sc.close();
     }
 }
