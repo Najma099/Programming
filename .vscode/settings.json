@@ -2,21 +2,25 @@
     "C_Cpp.errorSquiggles": "disabled",
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "sem-ii",
-        "java_Prac/oops",
-        "java_Prac/loop",
-        "java_Prac/linklist.java",
-        "java_Prac/Stack",
-        "java_Prac/Queue",
-        "c++",
-        "JAVA/BinaryTree",
-        "GuesserGameApp.java",
-        "",
         ".",
-        "JAVA",
-        "JAVA\\Algorithm",
-        "JAVA\\Algorithm\\array",
-        "JAVA\\ARRAY_LIST"
+        "c++",
+        "DataStructure",
+        "GuesserGameApp.java",
+        "java",
+        "java_Prac/linklist.java",
+        "java_Prac/loop",
+        "java_Prac/oops",
+        "java_Prac/Queue",
+        "java_Prac/Stack",
+        "java/Algorithm",
+        "java/Algorithm/array",
+        "java/ARRAY_LIST",
+        "java/BinaryTree",
+        "sem-ii",
+        "java/BinaryTree/AVL"
     ],
-    "java.project.referencedLibraries": []
+    "java.project.referencedLibraries": [],
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

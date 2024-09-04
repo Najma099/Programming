@@ -1,4 +1,3 @@
-package AVL;
 public class AVL {
     class Node {
         int data;
