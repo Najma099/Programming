@@ -23,7 +23,7 @@ int main()
    int a=0;
    for(int i=0;i<=n;i++)
    {
-    for(int k=n;k>=i;k--)// spaces
+    for(int k=n;k>=i;k--)
     {
         printf(" ");
     }
