@@ -1,3 +1,4 @@
+package Java_Implementation.BinaryTree;
 class BinaryTree {
     Node root = null;
 

@@ -160,6 +160,7 @@ or simple exit without saving
 ## ⬜️ 8. `mv` 
 The `mv` command can act as both to move a file/ director or to rename it.
 ### ▫️ To move a file/directory:
+---
 Lets first create nested folder where we want to move file1.txt
 ```bash
     najmakhatun@Macbook-Air folder1 % mkdir -p parent/child/grandchild
@@ -177,6 +178,7 @@ Now lets check if it actually got moved or not
     file2.txt
 ```
 ### ▫️ To rename file/directory
+---
 ```bash
     najmakhatun@Macbook-Air grandchild % mv  file2.txt file_rename.txt
 ```
@@ -191,7 +193,7 @@ Now lets check if it actually got moved or not
 <br>
 
 
-### ⬜️ 9. `cp` - copy files/folder
+## ⬜️ 9. `cp` - copy files/folder
 The comman `cp` is used to copy a file/director from one source to other destination.
 ### ▫️ Command for File:
 ---

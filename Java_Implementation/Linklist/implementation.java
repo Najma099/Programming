@@ -1,3 +1,4 @@
+package Java_Implementation.Linklist;
 //Singly linked 
 public class implementation {
     public static class Node
